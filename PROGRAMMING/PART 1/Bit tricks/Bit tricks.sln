@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getPositionBit", "getPositionBit\getPositionBit.csproj", "{B8120862-3EAA-4580-A3C1-857A8D3E6808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raiseBit", "raiseBit\raiseBit.csproj", "{B45E47EB-42D2-4F5D-8A88-61ACDBA2AA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tearDownBit", "tearDownBit\tearDownBit.csproj", "{3D4167E1-520D-4E52-8E53-4572307ACA28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8120862-3EAA-4580-A3C1-857A8D3E6808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8120862-3EAA-4580-A3C1-857A8D3E6808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8120862-3EAA-4580-A3C1-857A8D3E6808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8120862-3EAA-4580-A3C1-857A8D3E6808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45E47EB-42D2-4F5D-8A88-61ACDBA2AA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45E47EB-42D2-4F5D-8A88-61ACDBA2AA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45E47EB-42D2-4F5D-8A88-61ACDBA2AA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45E47EB-42D2-4F5D-8A88-61ACDBA2AA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4167E1-520D-4E52-8E53-4572307ACA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4167E1-520D-4E52-8E53-4572307ACA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4167E1-520D-4E52-8E53-4572307ACA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4167E1-520D-4E52-8E53-4572307ACA28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
