@@ -14,6 +14,7 @@
             Console.OutputEncoding = System.Text.Encoding.Unicode;
 
             Battery battery = new Battery("4-клетъчна", 4.5f);
+            Battery battery2 = new Battery("3-клетъчна", 3f);
 
             Laptop AsusROGG550 = new Laptop(
                 "ASUS ROG G550JK-XO265D",
@@ -26,7 +27,10 @@
                 "15.6-инчов (39.62 см.) - 1366x768, матов",
                 battery);
 
+            Laptop AsusK551LN = new Laptop("ASUS K551LN-DM064D", 1349m);
+
             Console.WriteLine(AsusROGG550);
+            Console.WriteLine(AsusK551LN);
         }
     }
 }
