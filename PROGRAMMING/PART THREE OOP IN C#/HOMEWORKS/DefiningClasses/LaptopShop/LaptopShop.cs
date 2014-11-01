@@ -1,11 +1,6 @@
 ﻿namespace LaptopShop
 {
     using System;
-
-    //using System.Collections.Generic;
-    //using System.Linq;
-    //using System.Text;
-    //using System.Threading.Tasks;
     class LaptopShop
     {
         static void Main()
