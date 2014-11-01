@@ -43,7 +43,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Model", "Model cannot be empty or null!");
                 }
@@ -61,7 +61,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Manufacturer", "Manufacturer cannot be empty or null!");
                 }
@@ -79,7 +79,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Processor", "Processor cannot be empty or null!");
                 }
@@ -97,7 +97,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Ram", "Ram cannot be empty or null!");
                 }
@@ -115,7 +115,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("GraphicsCard", "GraphicsCard cannot be empty or null!");
                 }
@@ -133,7 +133,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Hdd", "Hdd cannot be empty or null!");
                 }
@@ -151,7 +151,7 @@
 
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (value != null && value.Length < 1)
                 {
                     throw new ArgumentNullException("Screen", "Screen cannot be empty or null!");
                 }
