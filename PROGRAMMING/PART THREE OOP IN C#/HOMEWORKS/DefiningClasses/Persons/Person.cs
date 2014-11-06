@@ -70,8 +70,7 @@
 
         public override string ToString()
         {
-            return string.Format("Name:{0}, Age:{1}", this.Name, this.Age) +
-                (this.Address == null ? "" : ", Address:" + this.Address);
+            return string.Format("Name:{0}, Age:{1}{2}", this.Name, this.Age, this.Address == null ? "" : ", Address:" + this.Address);
         }
     }
 }
