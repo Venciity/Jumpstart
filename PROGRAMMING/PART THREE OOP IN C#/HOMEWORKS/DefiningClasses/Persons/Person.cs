@@ -25,7 +25,7 @@
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentNullException("Name", "Name caanot be empty or null");
+                    throw new ArgumentNullException("Name", "Name cannot be empty or null");
                 }
 
                 this.name = value;
